@@ -135,6 +135,7 @@ header {
 
 .menu__list {
     list-style-type: none;
+    /* overflow: scroll; */
 }
 
 .menu__list li {
@@ -192,6 +193,7 @@ header {
     background-color: #0D0D0D;
     z-index: 2;
     padding: 50px;
+    overflow: scroll;
 }
 
 
