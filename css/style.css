@@ -395,6 +395,15 @@ main {
 
 }
 
+.slide::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.slide {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .info {
     padding: 57px 1rem 80px;
 }

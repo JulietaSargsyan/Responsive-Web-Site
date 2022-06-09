@@ -12,6 +12,9 @@ const dot2 = document.querySelector('#dot2');
 const dot3 = document.querySelector('#dot3');
 const slide_item = document.querySelector('.slide_item')
 
+slide_container.style.overflow = 'scroll';
+
+
 
 dot1.addEventListener('click', () => {
     slide_container.style.transform = 'none';
@@ -24,6 +27,6 @@ dot2.addEventListener('click', () => {
 
 dot3.addEventListener('click', () => {
     slide_container.style.transform = 'translateX(-80%)';
-    slide_container.style.overflow = 'scroll'
+    
 
 })
