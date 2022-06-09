@@ -626,6 +626,7 @@ main {
     .promo {
         width: 100%;
         padding: 123px;
+        overflow: hidden !important;
        
         
     }
