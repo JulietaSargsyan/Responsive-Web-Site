@@ -390,7 +390,7 @@ main {
 
 .slide {
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
     padding-left: 1rem;
 
 }
@@ -455,9 +455,7 @@ main {
 }
 
 
-.slide-dots .dot1:focus + .slide {
-    background-color: red;
-}
+
 
 
 
@@ -635,7 +633,7 @@ main {
     .promo {
         width: 100%;
         padding: 123px;
-        overflow: hidden !important;
+        /* overflow: hidden !important; */
        
         
     }
