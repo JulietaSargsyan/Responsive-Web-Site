@@ -6,7 +6,7 @@ setInterval(() => {
     liveTime.innerText = time;
 }, 1000)
 
-const slide_container = document.querySelector('.slide');
+const slide_container = document.querySelector('.promo');
 const dot1 = document.querySelector('#dot1');
 const dot2 = document.querySelector('#dot2');
 const dot3 = document.querySelector('#dot3');
